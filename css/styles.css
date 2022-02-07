@@ -131,28 +131,14 @@ body {
   color: rgba(0, 0, 0, 0);
 }
 
-.div-section {
-  width: 1170;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 .titlle-desk {
-  outline: 1px solid tomato;
-  padding: 0;
-  margin: 0;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
 }
 .titlle-desk-list {
   list-style: none;
   line-height: 1.14;
   font-weight: normal;
   color: var(--titlle-text-color);
-  outline: 1px solid teal;
-  flex-basis: cals(100/4);
 }
 .titlle-desk-list-item {
   font-weight: bold;
@@ -160,7 +146,6 @@ body {
   line-height: 1.5;
   text-transform: uppercase;
   color: var(--color-word);
-  padding: 0;
 }
 .titlle-desk-list-item-text {
   font-weight: normal;
@@ -168,7 +153,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--team-color);
-  padding: 0;
 }
 
 .section {
@@ -182,7 +166,7 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
+
   letter-spacing: 0.03em;
   color: var(--color-word);
 }
