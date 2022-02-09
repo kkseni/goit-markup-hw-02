@@ -108,7 +108,7 @@ body {
   line-height: 1.9;
   align-items: center;
   text-align: center;
-  color: var(--team-color);
+  color: var(--button-color);
 }
 .slogan-button {
   background: var(--footer-color);
@@ -141,7 +141,6 @@ body {
   color: var(--titlle-text-color);
 }
 .titlle-desk-list-item {
-  font-weight: bold;
   font-size: 14px;
   line-height: 1.5;
   text-transform: uppercase;
@@ -156,14 +155,12 @@ body {
 }
 
 .section {
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
 .titlle {
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
 
@@ -299,9 +296,11 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--color-word);
 }
 .works-link-desk {
   font-size: 16px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  color: var(--team-color);
 }
