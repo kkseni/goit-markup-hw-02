@@ -35,7 +35,9 @@ body {
 .page-header {
   background: var(--primary-white-color);
 }
-
+a {
+  text-decoration: none;
+}
 .logo {
   text-decoration: none;
   font-family: var(--secondary-text);
@@ -50,14 +52,12 @@ body {
 }
 .site-nav {
   list-style: none;
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .site-nav-link.current {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -65,7 +65,6 @@ body {
   color: var(--accent-color);
 }
 .site-nav-link {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -86,7 +85,6 @@ body {
   letter-spacing: 0.02em;
 }
 .contacts-link {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -117,7 +115,6 @@ body {
 }
 .slogan {
   text-transform: uppercase;
-  font-family: var(--text-leng);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -147,7 +144,6 @@ body {
   color: var(--color-word);
 }
 .titlle-desk-list-item-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -193,7 +189,6 @@ body {
   color: var(--color-word);
 }
 .team-list-item-desk-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -206,7 +201,6 @@ body {
   height: 150px;
 }
 .logo-footer {
-  text-decoration: none;
   font-family: var(--secondary-text);
   font-weight: bold;
   font-size: 26px;
@@ -221,18 +215,12 @@ body {
   color: var(--primary-white-color);
 }
 .contacts-footer-link-map {
-  text-decoration: none;
-
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 .contacts-footer-link {
-  text-decoration: none;
-
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -242,7 +230,6 @@ body {
 /*styles to portfolio*/
 
 .site-nav-link.current {
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -295,7 +282,6 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
